@@ -28,3 +28,25 @@ for j in range(len(val)):
 
 res = {1: day1, 2: day2, 3: day3, 4: day4, 5: day5}
 print(max(res, key=res.get))
+
+
+# n=int(input(""))
+# grid=[]
+# for a in range(n):
+#     row=list(input(""))
+#     grid.append(row)
+# columns=list(zip(*grid))
+# counts=[]
+
+# for col in enumerate(columns):
+#     count=col[1].count("Y")
+#     counts.append((col[0],count))
+
+# maxValue=max(counts,key=lambda x:x[1])[1]
+# printing=""
+# for col in enumerate(columns):
+#     if col[1].count("Y")==maxValue and printing=="":
+#         printing+=str(col[0]+1)
+#     elif col[1].count("Y")==maxValue:
+#         printing+=","+str(col[0]+1)
+# print(printing)
