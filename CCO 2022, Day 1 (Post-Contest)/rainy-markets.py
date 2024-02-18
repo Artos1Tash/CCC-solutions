@@ -15,8 +15,5 @@ if sum_ppl > summ:
 else:
     print("YES")
     print(sum_ppl - sum(bus_shelter_i))
-    out1 = bus_shelter_i[0] - ppl_market[0]
-    out2 = ""
-    out3 = bus_shelter_i[1] - ppl_market[0]
+    
 
-# I got stuck here
